@@ -1,27 +1,25 @@
 
 .app-title{
     text-align: center;
-    margin-bottom: -58px;
+
 }
-.panda-img1{
-    height: 150px;
-    margin-left: 520px;
-    margin-bottom: -55px;
-}
+
 .todolist-container{
     height: 500px;
-    width: 500px;
-    background-color: white;
+    width: 450px;
+    background-color: rgb(255, 248, 183);
     margin: 5px auto;
-    border-radius: 10px;
+    border-radius: 50px 0px 0px 50px ;
     padding: 5px;
     overflow-y: scroll;
+    box-shadow: 0px 0px 7px 7px rgb(182, 173, 128);
 }
 .add-item-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -10px;
+    margin-top: 10px;
+   
 }
 .add-input{
     padding: 5px 10px;
@@ -31,39 +29,16 @@
 }
 .add-icon{
     height: 32px;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
 }
-.panda-img2{
-    height: 170px;
-    margin-left: 990px;
-    margin-top: -1210px;
-}
+
 .categeory-select{
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 18px;
     border: 1px solid gray;
     margin-left: 5px;
     cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
-    .app-title{
-       margin-left: 250px;
-        width: 250px;
-    }
-    .todolist-container{
-        margin: 0% 20%;
-    }
-  .panda-img1{
-    margin-left:98px;
-    margin-bottom: -52px;
-}
-  .panda-img2{
-    margin-left: 560px;
-}
-.add-item-container{
-    margin-left: 300px;
-}
-}

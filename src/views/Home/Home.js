@@ -1,7 +1,6 @@
 import "./Home.css"
 import add from "./img/plus.png"
-import panda from "./img/panda.png"
-import panda2 from "./img/panda2.png"
+
 import ToDoCard from "../../components/todoCard/todoCard"
 import { useEffect, useState } from "react"
 import toast, {Toaster} from "react-hot-toast"
@@ -49,7 +48,6 @@ function Home() {
   return (
     <div>
         <h1 className="app-title">ToDo App📝</h1>
-        <img src={panda} className="panda-img1" alt="panda1"/>
         <div className="todolist-container">
            {
             todoList.map((todoItem, i)=>{
@@ -69,7 +67,7 @@ function Home() {
             : null
            }
         </div>
-        <img src={panda2} className="panda-img2" alt="panda2"/>
+        
         <div className="add-item-container">
             <input
                 type="text"

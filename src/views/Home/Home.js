@@ -48,7 +48,7 @@ function Home() {
     }
   return (
     <div>
-        <h1 className="app-title">To-Do App📝</h1>
+        <h1 className="app-title">ToDo App📝</h1>
         <img src={panda} className="panda-img1" alt="panda1"/>
         <div className="todolist-container">
            {
